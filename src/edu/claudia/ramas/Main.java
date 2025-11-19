@@ -11,12 +11,11 @@ public class Main {
         while (bolas.size() < 5) {
             bolas.add(r.nextInt(49) + 1);
         }
-        System.out.println("¡Suerte en el sorteo!!!");
         System.out.println("Números principales: " + bolas);
         int complementario = r.nextInt(49) + 1;
         System.out.println("Complementario: " + complementario);
         int suma = bolas.stream().mapToInt(Integer::intValue).sum();
         System.out.println("Suma de principales: " + suma);
-        System.out.println("¡Suerte en el sorteo, a ganar!!, DAM!");
+        System.out.println("¡Suerte en el sorteo, a ganar!!");
     }
 }
