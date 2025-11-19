@@ -16,6 +16,10 @@ public class Main {
         System.out.println("Complementario: " + complementario);
         int suma = bolas.stream().mapToInt(Integer::intValue).sum();
         System.out.println("Suma de principales: " + suma);
+<<<<<<< HEAD
         System.out.println("¡Suerte en el sorteo, a ganar!!");
+=======
+        System.out.println("¡Suerte en el sorteo, DAM!");
+>>>>>>> feature/mensaje
     }
 }
